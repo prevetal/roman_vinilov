@@ -1,0 +1,10 @@
+<svg width="64" height="44" viewBox="0 0 64 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 111">
+<mask id="mask0_96_1453" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="44">
+<rect id="Rectangle 1462" width="63.9717" height="44.0001" transform="matrix(-1 -8.74228e-08 -8.74228e-08 1 64 0)" fill="#FAF8EF"/>
+</mask>
+<g mask="url(#mask0_96_1453)">
+<path id="Star 3" d="M32 -32C32 -32 30.2344 -14.5177 23.3571 -7.74786C16.4798 -0.978024 1.06088e-06 -0.500004 1.06088e-06 -0.500004C1.06088e-06 -0.500004 16.4798 -0.0219806 23.3571 6.74786C30.2344 13.5177 32 31 32 31C32 31 33.7656 13.5177 40.6429 6.74786C47.5202 -0.0219779 64 -0.499998 64 -0.499998C64 -0.499998 47.5202 -0.978021 40.6429 -7.74786C33.7656 -14.5177 32 -32 32 -32Z" fill="#FAF8EF"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,593 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 16px;
+        --font_size_title: 25px;
+    }
+
+
+    .cont
+    {
+        padding: 0 10px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 10px;
+    }
+
+
+
+    /*--------------
+        All link
+    --------------*/
+    .all_link
+    {
+        margin-top: 30px;
+    }
+
+
+    .all_link a
+    {
+        font-size: 14px;
+
+        width: 265px;
+        height: 60px;
+    }
+
+
+
+    /*----------------
+        Pagination
+    ----------------*/
+    .pagination
+    {
+        margin-top: 50px;
+        padding: 32px 64px 0;
+    }
+
+
+    .pagination .links > * + *
+    {
+        margin-left: 20px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 20px 0;
+    }
+
+
+    header .logo img
+    {
+        width: 30px;
+    }
+
+
+    header .menu_item > a,
+    header .menu_item > .btn
+    {
+        font-size: 7px;
+    }
+
+
+    header .menu_item > a .icon,
+    header .menu_item > .btn .icon
+    {
+        width: 4px;
+        height: 4px;
+        margin-top: 2px;
+        margin-left: 2px;
+    }
+
+
+    header .messengers
+    {
+        margin-left: 20px;
+    }
+
+
+    header .messengers > * + *
+    {
+        margin-left: 5px;
+    }
+
+
+    header .messengers img
+    {
+        width: 13px;
+        height: 12px;
+    }
+
+
+    header .mob_menu_btn
+    {
+        width: 30px;
+        height: 20px;
+        margin-left: 10px;
+    }
+
+
+    header .mob_menu_btn .icon
+    {
+        width: 30px;
+        height: 10px;
+    }
+
+
+
+    /*---------------
+        Mob. menu
+    ---------------*/
+    .mob_menu
+    {
+        padding-top: 100px;
+    }
+
+
+    .mob_menu .menu
+    {
+        padding-bottom: 60px;
+    }
+
+
+    .mob_menu .menu_item + .menu_item
+    {
+        margin-top: 10px;
+    }
+
+
+
+    .mob_menu .menu_item > a,
+    .mob_menu .menu_item > .btn
+    {
+        font-size: 14px;
+    }
+
+
+
+    .mob_menu .label
+    {
+        font-size: 12px;
+
+        width: 274px;
+    }
+
+
+
+    .mob_menu .messengers
+    {
+        margin-top: 10px;
+    }
+
+
+    .mob_menu .messengers > * + *
+    {
+        margin-left: 10px;
+    }
+
+
+    .mob_menu .messengers img
+    {
+        width: 26px;
+        height: 26px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        margin-bottom: 60px;
+        padding-top: 32px;
+    }
+
+
+    .breadcrumbs
+    {
+        font-size: 7px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head,
+    .block_head.big_m
+    {
+        margin-bottom: 28px;
+    }
+
+
+    .block_head .title span:nth-child(2),
+    .block_head .title span:nth-child(2) ~ span
+    {
+        display: inline;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        margin-bottom: 40px;
+        padding-top: 24px;
+        padding-bottom: 38px;
+    }
+
+
+    .first_section:before
+    {
+        top: 0;
+    }
+
+
+    .first_section .label
+    {
+        font-size: 8px;
+
+        right: 10px;
+
+        width: 184px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 25px;
+
+        width: 100%;
+    }
+
+
+    .first_section .title span:nth-child(2)
+    {
+        margin-top: -8px;
+        margin-left: 10px;
+    }
+
+    .first_section .title span:nth-child(3)
+    {
+        right: 0;
+
+        margin-top: -8px;
+    }
+
+
+    .first_section .desc
+    {
+        line-height: 130%;
+
+        margin-top: 40px;
+    }
+
+
+    .first_section .exp
+    {
+        font-size: 14px;
+    }
+
+
+    .first_section .persons
+    {
+        margin-top: 20px;
+    }
+
+
+    .first_section .persons > * + *
+    {
+        margin-left: -12px;
+    }
+
+
+    .first_section .persons img
+    {
+        width: 50px;
+        height: 50px;
+    }
+
+
+
+    /*-----------------
+        What useful
+    -----------------*/
+    .what_useful .row
+    {
+        margin-left: 0;
+    }
+
+    .what_useful .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .what_useful .item,
+    .what_useful .image
+    {
+        min-height: 124px;
+    }
+
+
+    .what_useful .image.circle,
+    .what_useful .image.circle img
+    {
+        width: 300px;
+        height: 300px;
+        margin-right: auto;
+        margin-left: auto;
+
+        border-radius: 50%;
+    }
+
+
+
+    /*----------------------
+        What will happen
+    ----------------------*/
+    .what_will_happen .item .head
+    {
+        margin: 0;
+    }
+
+
+    .what_will_happen .item .name
+    {
+        font-size: 18px;
+    }
+
+
+    .what_will_happen .item .exp
+    {
+        font-size: 16px;
+    }
+
+
+    .what_will_happen .item .link a
+    {
+        line-height: 18px;
+    }
+
+
+
+    .what_will_happen .bottom
+    {
+        line-height: 130%;
+
+        padding: 29px 7px;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .swiper-slide
+    {
+        width: 280px;
+    }
+
+
+
+    /*-------------
+        Authors
+    -------------*/
+    .authors .item .info
+    {
+        padding: 40px 0;
+    }
+
+
+    .authors .item .name
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*-----------
+        Certs
+    -----------*/
+    .certs .swiper-slide
+    {
+        width: 160px;
+    }
+
+
+
+    /*-------------
+        Tariffs
+    -------------*/
+    .tariffs .row
+    {
+        margin-left: 0;
+    }
+
+
+    .tariffs .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .tariffs .tariff .name
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles
+    {
+        margin-bottom: 96px;
+    }
+
+
+    .articles .row
+    {
+        margin-bottom: -55px;
+        margin-left: 0;
+    }
+
+
+    .articles .row > *
+    {
+        width: 100%;
+        margin-bottom: 55px;
+        margin-left: 0;
+    }
+
+
+    .articles .article .name
+    {
+        width: 262px;
+        margin-top: 20px;
+    }
+
+
+
+    /*----------------
+        Order form
+    ----------------*/
+    .order_form .title
+    {
+        font-size: 20px;
+
+        margin-bottom: 30px;
+    }
+
+
+
+    /*--------------
+        Schedule
+    --------------*/
+    .schedule .link
+    {
+        margin-top: 30px;
+    }
+
+
+    .schedule .link a
+    {
+        height: 60px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 25px 0 39px;
+    }
+
+
+    footer .logo
+    {
+        margin-bottom: 30px;
+    }
+
+
+    footer .logo img
+    {
+        height: 31px;
+    }
+
+
+    footer .copyright
+    {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+
+    footer .copyright br
+    {
+        display: block;
+    }
+
+
+    footer .site
+    {
+        width: 100%;
+    }
+
+
+    footer .contacts
+    {
+        margin-top: 24px;
+    }
+
+
+    footer .phone
+    {
+        order: 2;
+
+        width: 100%;
+        margin-top: 40px;
+    }
+
+
+    footer .socials
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    footer .exp
+    {
+        font-size: 8px;
+
+        text-align: left;
+    }
+
+    footer .exp + .exp
+    {
+        margin-top: 10px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        width: 300px;
+        padding: 60px 35px 59px;
+    }
+
+
+    .modal_title
+    {
+        font-size: 16px;
+        line-height: 130%;
+
+        margin-bottom: 30px;
+    }
+}

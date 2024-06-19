@@ -1,0 +1,437 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 35px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 24px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 35px 0 24px;
+        position: static;
+    }
+
+
+    header:after
+    {
+        display: none;
+    }
+
+
+    header .menu_item
+    {
+        display: none;
+    }
+
+    header .menu_item:last-child
+    {
+        display: block;
+    }
+
+    header .menu_item + .menu_item
+    {
+        margin: 0;
+    }
+
+
+    header .messengers
+    {
+        margin-left: 40px;
+    }
+
+
+    header .tariffs_btn
+    {
+        display: none;
+    }
+
+
+    header .mob_menu_btn
+    {
+        display: flex;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        margin-bottom: 48px;
+        padding-top: 20px;
+    }
+
+
+    .breadcrumbs
+    {
+        font-size: 13px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head.big_m
+    {
+        margin-bottom: 83px;
+    }
+
+
+    .block_head .desc
+    {
+        font-size: 16px;
+
+        width: 445px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        margin-bottom: 60px;
+        padding-top: 42px;
+        padding-bottom: 185px;
+    }
+
+
+    .first_section .label
+    {
+        font-size: 12px;
+
+        width: 278px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 50px;
+
+        width: 568px;
+    }
+
+
+    .first_section .desc
+    {
+        font-size: 16px;
+
+        width: 484px;
+        margin-left: 50px;
+    }
+
+
+    .first_section .exp
+    {
+        font-size: 16px;
+
+        width: 484px;
+        margin-left: 50px;
+    }
+
+
+    .first_section .row
+    {
+        padding-left: 50px;
+    }
+
+
+    .first_section .persons
+    {
+        margin-right: 0;
+    }
+
+
+    .first_section .persons img
+    {
+        width: 76px;
+        height: 76px;
+    }
+
+
+
+    /*-----------------
+        What useful
+    -----------------*/
+    .what_useful
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .what_useful .row > *
+    {
+        width: calc(33.333% - 20px);
+    }
+
+
+    .what_useful .row > *:nth-child(10),
+    .what_useful .row > *:nth-child(13)
+    {
+        display: none;
+    }
+
+
+    .what_useful .item
+    {
+        min-height: 124px;
+    }
+
+
+    .what_useful .image.circle img
+    {
+        height: 100%;
+
+        border-radius: 10px;
+    }
+
+
+
+    /*----------------------
+        What will happen
+    ----------------------*/
+    .what_will_happen .cont
+    {
+        --count: 1;
+    }
+
+
+    .what_will_happen .row
+    {
+        margin-bottom: -24px;
+        margin-left: 0;
+    }
+
+
+    .what_will_happen .row > *
+    {
+        width: 100%;
+        margin-bottom: 24px;
+        margin-left: 0;
+    }
+
+
+    .what_will_happen .item
+    {
+        padding: 40px 30px;
+    }
+
+
+    .what_will_happen .bottom
+    {
+        font-size: 18px;
+        line-height: 28px;
+
+        width: 100%;
+        padding: 31px;
+    }
+
+
+
+    /*-------------
+        Authors
+    -------------*/
+    .authors .item .name
+    {
+        font-size: 22px;
+    }
+
+
+    .authors .item .items
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*-----------
+        Certs
+    -----------*/
+    .certs .swiper
+    {
+        padding: 0 80px 48px;
+    }
+
+
+
+    /*-------------
+        Tariffs
+    -------------*/
+    .tariffs .row
+    {
+        padding: 0;
+    }
+
+
+    .tariffs .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .article .name
+    {
+        margin-top: 16px;
+    }
+
+
+
+    /*--------------
+        Schedule
+    --------------*/
+    .schedule .empty
+    {
+        padding: 35px;
+    }
+
+
+    .schedule .empty .btn
+    {
+        margin-top: 20px;
+    }
+
+
+    .schedule .item
+    {
+        padding: 45px 60px 45px 50px;
+    }
+
+
+    .schedule .item > *:first-child
+    {
+        float: none;
+
+        width: 100%;
+    }
+
+
+    .schedule .item .contacts
+    {
+        display: flex;
+        float: none;
+        align-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        width: 100%;
+        margin-top: 20px;
+        padding: 0;
+    }
+
+
+    .schedule .item .contacts > *:first-child
+    {
+        width: calc(50% - 15px);
+    }
+
+
+    .schedule .item .contacts .places
+    {
+        width: calc(50% - 15px);
+        margin-top: 0;
+    }
+
+
+    .schedule .item .btns
+    {
+        float: none;
+
+        width: 100%;
+        margin-top: 35px;
+    }
+
+
+
+    /*----------------
+        Order form
+    ----------------*/
+    .order_form .title
+    {
+        margin-bottom: 35px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 80px 0 40px;
+    }
+
+
+    footer .copyright
+    {
+        font-size: var(--font_size);
+
+        width: 348px;
+    }
+
+
+    footer .site
+    {
+        font-size: var(--font_size);
+
+        margin-left: 100px;
+    }
+
+
+    footer .phone
+    {
+        font-size: var(--font_size);
+
+        width: 348px;
+    }
+
+
+    footer .socials
+    {
+        margin-left: 100px;
+    }
+
+
+    footer .links
+    {
+        display: block;
+    }
+
+
+    footer .links > * + *
+    {
+        margin-top: 12px;
+    }
+
+
+    footer .exp
+    {
+        text-align: right;
+    }
+}

@@ -1,0 +1,584 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 30px;
+    }
+
+
+    .cont
+    {
+        padding: 0 16px;
+    }
+
+
+    .block.small_m
+    {
+        margin-bottom: 60px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head,
+    .block_head.big_m
+    {
+        margin-bottom: 35px;
+    }
+
+
+    .block_head .title.blur:after
+    {
+        top: 26px;
+        right: 27px;
+
+        width: 100px;
+        height: 100px;
+
+                filter: blur(16px);
+        -webkit-filter: blur(16px);
+    }
+
+
+    .block_head .title span:nth-child(2)
+    {
+        margin-left: 0;
+    }
+
+
+    .block_head .title span:nth-child(3)
+    {
+        position: relative;
+        top: 0;
+        right: 0;
+
+        margin: 0;
+    }
+
+
+    .block_head .desc
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        margin-bottom: 60px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+
+    .first_section:before
+    {
+        top: 0;
+
+        width: 1120px;
+        height: 1120px;
+
+        border-radius: 1120px;
+    }
+
+
+    .first_section .label
+    {
+        font-size: 10px;
+
+        top: -20px;
+        right: 16px;
+        bottom: auto;
+
+        width: 228px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 32px;
+
+        width: 372px;
+    }
+
+
+    .first_section .title:after
+    {
+        top: 26px;
+        right: 27px;
+
+        width: 100px;
+        height: 100px;
+
+                filter: blur(16px);
+        -webkit-filter: blur(16px);
+    }
+
+
+    .first_section .title span:nth-child(2)
+    {
+        margin-top: -10px;
+        margin-left: 40px;
+    }
+
+    .first_section .title span:nth-child(3)
+    {
+        right: -40px;
+
+        margin-top: -10px;
+    }
+
+
+    .first_section .desc
+    {
+        font-size: 15px;
+
+        width: 100%;
+        margin-top: 60px;
+        margin-left: 0;
+        padding: 0 10px;
+
+        text-align: center;
+    }
+
+
+    .first_section .exp
+    {
+        font-size: 15px;
+
+        width: 100%;
+        margin-left: 0;
+        padding: 0 10px;
+
+        text-align: center;
+    }
+
+
+    .first_section .row
+    {
+        padding-left: 0;
+    }
+
+
+    .first_section .btn
+    {
+        font-size: 14px;
+
+        width: 140px;
+        height: 140px;
+        margin: 0 auto;
+
+        box-shadow: 0 0 0 5px #fff;
+    }
+
+
+    .first_section .persons
+    {
+        justify-content: center;
+
+        width: 100%;
+        margin-top: 24px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+
+    .first_section .persons > * + *
+    {
+        margin-left: -15px;
+    }
+
+
+    .first_section .persons img
+    {
+        width: 60px;
+        height: 60px;
+    }
+
+
+
+    /*-----------
+        Video
+    -----------*/
+    .video .iframe
+    {
+        width: 100%;
+        height: auto;
+        padding-bottom: 56%;
+    }
+
+
+
+    /*-----------------
+        What useful
+    -----------------*/
+    .what_useful .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    .what_useful .row > *.empty
+    {
+        display: none;
+    }
+
+
+    .what_useful .item,
+    .what_useful .image
+    {
+        min-height: 112px;
+    }
+
+
+    .what_useful .image.circle img
+    {
+        height: 100%;
+
+        border-radius: 10px;
+    }
+
+
+
+    /*----------------------
+        What will happen
+    ----------------------*/
+    .what_will_happen:before
+    {
+        width: 1120px;
+        height: 2120px;
+
+        border-radius: 1120px;
+    }
+
+
+    .what_will_happen .item
+    {
+        padding: 40px 20px;
+    }
+
+
+    .what_will_happen .item .name
+    {
+        font-size: 22px;
+    }
+
+
+    .what_will_happen .item .exp
+    {
+        font-size: 18px;
+    }
+
+
+    .what_will_happen .item .exp .age
+    {
+        line-height: 32px;
+
+        width: 32px;
+        height: 32px;
+        margin-left: 10px;
+    }
+
+
+    .what_will_happen .item .link
+    {
+        margin-top: 30px;
+    }
+
+
+    .what_will_happen .item .link a
+    {
+        font-size: 16px;
+
+        height: 60px;
+    }
+
+
+
+    .what_will_happen .bottom
+    {
+        font-size: 16px;
+        line-height: 26px;
+
+        margin-top: 100px;
+        padding: 29px;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .swiper
+    {
+        padding-bottom: 0;
+    }
+
+
+    .reviews .swiper-slide
+    {
+        visibility: visible;
+
+        width: 320px;
+
+        pointer-events: auto;
+
+        opacity: 1;
+    }
+
+
+    .reviews .swiper-button-next,
+    .reviews .swiper-button-prev
+    {
+        display: none;
+    }
+
+
+
+    /*-------------
+        Authors
+    -------------*/
+    .authors .row
+    {
+        margin-left: 0;
+    }
+
+
+    .authors .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .authors .item .name
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*-----------
+        Certs
+    -----------*/
+    .certs .swiper
+    {
+        padding: 0 0 40px;
+    }
+
+
+    .certs .swiper-slide
+    {
+        visibility: visible;
+
+        width: 200px;
+
+        pointer-events: auto;
+
+        opacity: 1;
+    }
+
+
+    .certs .swiper-button-next,
+    .certs .swiper-button-prev
+    {
+        display: none;
+    }
+
+
+
+    /*-------------
+        Tariffs
+    -------------*/
+    .tariffs .tariff
+    {
+        padding: 40px 10px 30px;
+    }
+
+
+    .tariffs .tariff .number
+    {
+        font-size: 16px;
+    }
+
+
+    .tariffs .tariff .name
+    {
+        font-size: 22px;
+    }
+
+
+    .tariffs .tariff .btn
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .articles .row
+    {
+        margin-bottom: -40px;
+        margin-left: -20px;
+    }
+
+
+    .articles .row > *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 40px;
+        margin-left: 20px;
+    }
+
+
+
+    /*--------------
+        Schedule
+    --------------*/
+    .schedule .list > * + *
+    {
+        margin-top: 30px;
+    }
+
+
+    .schedule .item
+    {
+        position: relative;
+
+        padding: 30px 20px 80px;
+    }
+
+
+    .schedule .item .name
+    {
+        font-size: 18px;
+
+        text-align: center;
+    }
+
+
+    .schedule .item .info
+    {
+        margin-top: 3px;
+
+        text-align: center;
+    }
+
+
+    .schedule .item .contacts
+    {
+        display: block;
+
+        text-align: center;
+        white-space: nowrap;
+    }
+
+
+    .schedule .item .contacts > *:first-child
+    {
+        display: inline-block;
+
+        width: auto;
+
+        text-align: left;
+        vertical-align: top;
+    }
+
+
+    .schedule .item .contacts .places
+    {
+        font-size: 14px;
+
+        position: absolute;
+        right: 0;
+        bottom: 30px;
+        left: 0;
+
+        width: 100%;
+        width: calc(100% - 40px);
+        margin: 0;
+        margin: 0 auto;
+        padding: 6px;
+    }
+
+
+    .schedule .item .btns .btn
+    {
+        width: 100%;
+    }
+
+
+    .schedule .item .btns .btn + .btn
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*----------------
+        Order form
+    ----------------*/
+    .order_form
+    {
+        display: none;
+
+        padding: 60px 0;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 60px 0 30px;
+    }
+
+
+    footer .copyright
+    {
+        width: 100%;
+    }
+
+
+    footer .site
+    {
+        width: calc(50% - 10px);
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+
+    footer .phone
+    {
+        width: calc(50% - 10px);
+    }
+
+
+    footer .socials
+    {
+        width: calc(50% - 10px);
+        margin-left: auto;
+    }
+}
